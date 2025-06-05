@@ -119,7 +119,7 @@ export default function Home() {
             setUserRole(userRoleData.role)
           } else {
             // If no role found, check if this is the admin email
-            const adminEmail = "admin@devhub.com" // Replace with your actual admin email
+            const adminEmail = "mohamedbahaabadour@gmail.com"
             if (session.user.email === adminEmail) {
               setUserRole("admin")
               // Create admin role entry if it doesn't exist
